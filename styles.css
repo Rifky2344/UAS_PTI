@@ -121,6 +121,26 @@ section h2{
     color: #FFD700;
 }
 
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #FFD700;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    flex: 1 1 45%;
+    max-width: 45%;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+
 footer {
     text-align: center;
     padding: 10px 0;
